@@ -1,0 +1,160 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin : 0;
+	padding: 0;
+}
+
+body {
+	font       : 125% verdana, sans-serif;
+	line-height: 2;
+	color      : #555753;
+	margin     : 0;
+	padding    : 0;
+}
+
+p {
+	margin-top: 0;
+	text-align: justify;
+}
+
+h3 {
+	font          : bold 1.8em 'Mansalva', cursive;
+	letter-spacing: 1px;
+	color         : #556052;
+}
+
+a:link {
+	font-weight    : bold;
+	text-decoration: none;
+	color          : #af6b58;
+}
+
+a:visited {
+	font-weight    : bold;
+	text-decoration: none;
+	color          : #af6b58;
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: underline;
+	color          : #855244;
+}
+
+abbr {
+	border-bottom: none;
+}
+
+/* specific divs */
+.intro {
+	background     : transparent url(https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+	color          : #f2efea;
+	line-height    : 1.2;
+}
+
+header h1 {
+	font-size: 4em;
+}
+
+header h2 {
+	font-size: 1.2em;
+}
+
+header {
+	font-family: 'Mansalva', cursive;
+	padding    : 5em;
+	text-align : center;
+}
+
+.summary {
+	background-color: #556052;
+	color           : #f2efea;
+	padding         : 5em 5em 3em;
+}
+
+.summary p {
+	font       : italic 1.1em/2.2 verdana, sans-serif;
+	text-align : center;
+	line-height: 1;
+}
+
+.page-wrapper {
+	background-color: #cbbcb1;
+	margin          : 0;
+	padding         : 3em 5em 2em 25em;
+	position        : relative;
+}
+
+footer {
+	font-family     : 'Mansalva', cursive;
+	background-color: #f2efea;
+	text-align      : center;
+	padding         : 3em;
+}
+
+footer a:link,
+footer a:visited {
+	margin-right: 20px;
+}
+
+.sidebar {
+	background-color: #f2efea;
+	position        : absolute;
+	top             : 4em;
+	left            : 3em;
+}
+
+.sidebar .wrapper {
+	font   : .9em verdana, sans-serif;
+	padding: 2em;
+	width  : 15em;
+}
+
+.sidebar img {
+	margin    : 1em;
+	width     : 13em;
+	height    : 13em;
+	box-shadow: 5px 15px 15px -5px hsla(0, 0%, 0%, .50);
+}
+
+
+.sidebar h3.select {
+	margin: .8em 0;
+}
+
+.sidebar h3.archives {
+	margin: 2em 0 .8em 0;
+}
+
+.sidebar h3.resources {
+	margin: 2em 0 .8em 0;
+}
+
+
+.sidebar ul {
+	margin : 0;
+	padding: 0;
+}
+
+.sidebar li {
+	line-height    : 2em;
+	padding-top    : 5px;
+	margin-bottom  : 5px;
+	list-style-type: none;
+}
+
+.sidebar li a:link {
+	color: #af6b58;
+}
