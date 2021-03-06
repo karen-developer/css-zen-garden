@@ -91,29 +91,44 @@ header {
 }
 
 .page-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	background-color: #cbbcb1;
-	margin          : 0;
-	padding         : 3em 5em 2em 25em;
-	position        : relative;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+	.page-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.supporting {
+	padding: 2em 5em;
+	width  : 80%;
 }
 
 footer {
 	font-family     : 'Mansalva', cursive;
-	background-color: #f2efea;
+	background-color: #556052;
+	color:  #f2efea;
 	text-align      : center;
-	padding         : 3em;
+	padding         : 3em 0;
 }
 
 footer a:link,
 footer a:visited {
 	margin-right: 20px;
+	color           : #f2efea;
 }
+
+
 
 .sidebar {
 	background-color: #f2efea;
-	position        : absolute;
-	top             : 4em;
-	left            : 3em;
 }
 
 .sidebar .wrapper {
@@ -129,7 +144,6 @@ footer a:visited {
 	box-shadow: 5px 15px 15px -5px hsla(0, 0%, 0%, .50);
 }
 
-
 .sidebar h3.select {
 	margin: .8em 0;
 }
@@ -141,7 +155,6 @@ footer a:visited {
 .sidebar h3.resources {
 	margin: 2em 0 .8em 0;
 }
-
 
 .sidebar ul {
 	margin : 0;
